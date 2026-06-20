@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Resume Tailor</title>
+  <meta name="description" content="Privacy Policy for the Resume Tailor Chrome extension." />
+  <meta name="robots" content="index, follow" />
+  <style>
+    :root {
+      --ink: #1a1a2e;
+      --muted: #555;
+      --accent: #2d5be3;
+      --bg: #ffffff;
+      --soft: #f5f7fb;
+      --border: #e3e8f0;
+      --maxw: 760px;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.65;
+      font-size: 17px;
+    }
+    .wrap { max-width: var(--maxw); margin: 0 auto; padding: 48px 24px 96px; }
+    header.page { border-bottom: 1px solid var(--border); padding-bottom: 24px; margin-bottom: 8px; }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.02em; }
+    .sub { color: var(--muted); margin: 0; font-size: 0.95rem; }
+    h2 {
+      font-size: 1.3rem; margin: 44px 0 12px; padding-top: 8px;
+      letter-spacing: -0.01em;
+    }
+    h3 { font-size: 1.05rem; margin: 24px 0 6px; }
+    p, li { color: var(--ink); }
+    a { color: var(--accent); }
+    .muted { color: var(--muted); }
+    .lead { font-size: 1.05rem; }
+    ul { padding-left: 1.3em; }
+    li { margin: 6px 0; }
+    .callout {
+      background: var(--soft);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 20px 0;
+    }
+    .callout strong { color: var(--ink); }
+    table {
+      width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.95rem;
+      display: block; overflow-x: auto;
+    }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    th { background: var(--soft); font-weight: 600; white-space: nowrap; }
+    code {
+      background: var(--soft); border: 1px solid var(--border); border-radius: 5px;
+      padding: 1px 6px; font-size: 0.88em;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    .placeholder { background: #fff3cd; border: 1px solid #ffe08a; border-radius: 4px; padding: 0 4px; }
+    footer.page { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9rem; }
+    @media (max-width: 480px) { body { font-size: 16px; } .wrap { padding: 32px 18px 72px; } h1 { font-size: 1.6rem; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="page">
+      <h1>Privacy Policy — Resume Tailor</h1>
+      <p class="sub"><strong>Effective date:</strong> June 20, 2026 &nbsp;·&nbsp; <strong>Last updated:</strong> June 20, 2026</p>
+    </header>
+
+    <p class="lead">This Privacy Policy explains what data the <strong>Resume Tailor</strong> Chrome extension and its
+    backend service collect, how we use and protect it, and the choices and rights you have. Resume Tailor rewrites
+    your resume to match the job posting on the page you are viewing.</p>
+
+    <div class="callout">
+      <strong>The short version.</strong> We collect only what is needed to tailor your resume: the resume content you
+      provide, the job posting you choose to tailor against, and (optionally) an email address if you verify one to buy
+      credits. All personal data is encrypted in transit (HTTPS) and at rest (AES-256-GCM). We
+      <strong>never sell your data</strong> and <strong>never use it for advertising</strong>.
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p>This service is operated by <strong>Mosi</strong> ("we", "us", "our"), the provider and data controller for
+    Resume Tailor. For privacy questions, data-access, or deletion requests, contact us using the details in the
+    <a href="#contact">Contact us</a> section below.</p>
+
+    <h2>2. Data we collect and why</h2>
+    <p>We collect the following categories of data, each only for the purpose stated.</p>
+
+    <table>
+      <thead>
+        <tr><th>Data</th><th>What it is</th><th>Why we process it</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Anonymous install token</strong></td>
+          <td>A random per-installation identifier generated automatically when you install the extension. It contains
+          <strong>no personal information</strong> and requires no login.</td>
+          <td>To associate your saved data and credit balance with your installation so the free tier works without an
+          account.</td>
+        </tr>
+        <tr>
+          <td><strong>Email address</strong> (optional)</td>
+          <td>Collected <strong>only if you choose</strong> to verify an email via a one-time code. This is the only
+          contact personal information we collect.</td>
+          <td>To let you purchase credits and restore them across devices, and to send verification codes.</td>
+        </tr>
+        <tr>
+          <td><strong>Resume / "fact base"</strong></td>
+          <td>Information you provide: name, contact details, work history, education, and skills.</td>
+          <td>To generate tailored resumes for you.</td>
+        </tr>
+        <tr>
+          <td><strong>Job postings</strong></td>
+          <td>The text (title, company, description) of the posting on your active browser tab — read
+          <strong>only when you click "Tailor."</strong></td>
+          <td>Used as input to the tailoring so the result matches that role.</td>
+        </tr>
+        <tr>
+          <td><strong>Tailored results</strong></td>
+          <td>The generated resume and assessment report.</td>
+          <td>Stored in your history so you can revisit and reuse them.</td>
+        </tr>
+        <tr>
+          <td><strong>Payment information</strong></td>
+          <td>Credits are purchased via Stripe. Card and payment details are handled entirely by Stripe — the app and
+          our backend <strong>never see or store card numbers</strong>.</td>
+          <td>To process purchases of generation credits.</td>
+        </tr>
+        <tr>
+          <td><strong>Operational data</strong></td>
+          <td>Non-personal records such as generation counters, credit balance, timestamps, and which resume template
+          was used.</td>
+          <td>To operate the service, enforce credit limits, and show your usage.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="muted">We do <strong>not</strong> track your browsing history, and the extension does not run in the
+    background on arbitrary pages.</p>
+
+    <h2>3. How your data is stored and protected</h2>
+    <ul>
+      <li><strong>Encrypted at rest.</strong> All personal data is encrypted with <strong>AES-256-GCM</strong> before
+      it reaches our database — including resume content, job metadata, tailored results, and email.</li>
+      <li><strong>No plaintext email.</strong> Email is stored as an encrypted value plus a one-way HMAC "blind index"
+      (used only for uniqueness and lookup). <strong>No plaintext email column exists anywhere.</strong></li>
+      <li><strong>Hashed tokens.</strong> Account/installation tokens are stored hashed (SHA-256), never in plaintext.</li>
+      <li><strong>Encrypted in transit.</strong> All traffic between the extension and our backend is over
+      <strong>HTTPS</strong>.</li>
+      <li><strong>Private database.</strong> Our PostgreSQL database has <strong>no public internet endpoint</strong>
+      (private network) and is hosted on Microsoft Azure in the Canada Central region.</li>
+    </ul>
+
+    <h2>4. Third parties we share data with (subprocessors)</h2>
+    <p>We share data only with the service providers below, and only to provide Resume Tailor to you. We
+    <strong>do not sell your data</strong>, and we <strong>do not use it for advertising</strong>.</p>
+    <ul>
+      <li><strong>Anthropic (Claude API)</strong> — your resume content and the selected job posting are sent to
+      Anthropic's API to generate the tailored resume. Under Anthropic's commercial API terms, API inputs are
+      <strong>not used to train</strong> their models.</li>
+      <li><strong>Stripe</strong> — payment processing for credit purchases.</li>
+      <li><strong>Microsoft Azure</strong> — hosting of our backend and database, and transactional email (Azure
+      Communication Services) used to send email-verification codes.</li>
+    </ul>
+
+    <h2>5. What the extension accesses on your device</h2>
+    <p>The extension requests the minimum Chrome permissions needed to function:</p>
+    <ul>
+      <li><code>activeTab</code> + <code>scripting</code> — to read the visible job posting on your current tab,
+      <strong>only when you click "Tailor."</strong> No content script runs on any page until you invoke "Tailor."</li>
+      <li><code>storage</code> — to store the anonymous token, the backend-URL setting, and in-progress tailoring state
+      locally on your device.</li>
+    </ul>
+    <p class="muted">The extension does not read pages you do not act on, does not track browsing history, and does not
+    run in the background on arbitrary pages.</p>
+
+    <h2>6. Data retention</h2>
+    <p>We keep your data for as long as you keep Resume Tailor installed and have data stored with us, so the service
+    remains usable. You can delete items from your history within the app, reset your identity in Settings (see below),
+    or request full deletion at any time. When you request deletion of your account or data, we remove your personal
+    data from our active systems within <strong>30 days</strong> and from encrypted backups within
+    <strong>90 days</strong>, except where we must retain limited records to comply with legal, tax, or accounting
+    obligations.</p>
+
+    <h2>7. Your rights and choices</h2>
+    <ul>
+      <li><strong>Reset identity.</strong> You can reset your identity in <strong>Settings</strong>, which clears the
+      local anonymous token on your device.</li>
+      <li><strong>Access &amp; correction.</strong> You can request a copy of the personal data we hold about you and
+      ask us to correct inaccuracies.</li>
+      <li><strong>Deletion.</strong> You can request deletion of your stored data by emailing us at the address in the
+      <a href="#contact">Contact us</a> section. Please send your request from, or reference, the verified email or
+      installation associated with the data so we can locate and verify it.</li>
+    </ul>
+
+    <h3>EEA/UK (GDPR)</h3>
+    <p>If you are in the European Economic Area or the United Kingdom, you have rights to access, rectify, erase,
+    restrict, and port your personal data, and to object to certain processing. Our legal bases for processing are:
+    <strong>performance of a contract</strong> (to provide the tailoring you request and process your purchases),
+    <strong>your consent</strong> (for optional email verification), and our <strong>legitimate interests</strong> (to
+    operate, secure, and improve the service). You may withdraw consent at any time, and you have the right to lodge a
+    complaint with your local data protection authority. Your data is processed and stored in Canada and may be
+    transferred to service providers as described above; we rely on appropriate safeguards for such transfers.</p>
+
+    <h3>California (CCPA/CPRA)</h3>
+    <p>If you are a California resident, you have the right to know what personal information we collect and how we use
+    it, to request access to and deletion of your personal information, and to not be discriminated against for
+    exercising these rights. We <strong>do not sell or share</strong> your personal information as those terms are
+    defined under the CCPA/CPRA, and we do not use it for cross-context behavioral advertising. To exercise your
+    rights, contact us using the details below.</p>
+
+    <h2>8. Children's privacy</h2>
+    <p>Resume Tailor is <strong>not directed at children under 13</strong>, and we do not knowingly collect personal
+    information from children under 13. If you believe a child has provided us personal information, contact us and we
+    will delete it.</p>
+
+    <h2>9. Chrome Web Store Limited Use compliance</h2>
+    <p>Our handling of user data complies with the
+    <a href="https://developer.chrome.com/docs/webstore/program-policies/user-data-faq/" rel="noopener" target="_blank">Chrome
+    Web Store User Data Policy</a>, including the <strong>Limited Use</strong> requirements. Specifically, the data we
+    access is used only to provide and improve the resume-tailoring features described to you; it is not transferred to
+    third parties except as needed to provide the service (the subprocessors listed above), not sold, not used for
+    advertising, and not used to determine creditworthiness or for lending purposes. Humans do not read your data
+    except where required to provide the service, with your consent, for security purposes, or to comply with
+    applicable law.</p>
+
+    <h2>10. Changes to this policy</h2>
+    <p>We may update this policy from time to time. When we do, we will revise the "Last updated" date at the top of
+    this page and, for material changes, provide a more prominent notice (such as within the extension). Your continued
+    use of Resume Tailor after an update means you accept the revised policy.</p>
+
+    <h2 id="contact">11. Contact us</h2>
+    <p>For privacy questions, data-access requests, or deletion requests:</p>
+    <ul>
+      <li><strong>Operator:</strong> Mosi</li>
+      <li><strong>Email:</strong> <a href="mailto:resumetailor@mosireserve.com">resumetailor@mosireserve.com</a></li>
+      <li><strong>Mailing address:</strong> <span class="placeholder">[BUSINESS MAILING ADDRESS]</span></li>
+    </ul>
+
+    <footer class="page">
+      <p>© 2026 Mosi. Resume Tailor and this Privacy Policy.</p>
+    </footer>
+  </div>
+</body>
+</html>
