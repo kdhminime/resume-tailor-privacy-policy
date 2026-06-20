@@ -3,3 +3,6 @@ PRIVACY_POLICY_HANDOFF.md
 
 # OS / editor cruft
 .DS_Store
+
+# Tooling
+.claude/

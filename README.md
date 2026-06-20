@@ -4,15 +4,16 @@ The public privacy policy for the **Resume Tailor** Chrome extension, ready to h
 **GitHub Pages**. The policy is a single self-contained file, [`index.html`](index.html) — no build
 step, no Jekyll, no dependencies.
 
-## Before you publish — fill in the placeholder
+## Status — ready to publish
 
-Open [`index.html`](index.html) and replace the one remaining placeholder:
+The policy is complete and needs no edits before hosting: operator **Mosi**, contact
+**resumetailor@mosireserve.com**, effective date **June 20, 2026**. Contact is **email-only** — no
+postal address appears in the policy.
 
-- `[BUSINESS MAILING ADDRESS]` — your business mailing address (a Chrome Web Store "trader"
-  requirement). Search the file for `[BUSINESS MAILING ADDRESS]`.
-
-Everything else is already set: operator **Mosi**, contact **resumetailor@mosireserve.com**,
-effective date **June 20, 2026**.
+> **Separate from this policy:** the Chrome Web Store requires paid / EEA "trader" developers to
+> register a real name, email, and **physical address** in the CWS dashboard, and Google publishes
+> that address on your store listing. Consider a **virtual mailbox or PO Box** rather than your home
+> address.
 
 > **Note on data retention:** Section 6 states a default retention/deletion timeline (active data
 > removed within 30 days of a deletion request, backups within 90 days). Adjust those numbers if
